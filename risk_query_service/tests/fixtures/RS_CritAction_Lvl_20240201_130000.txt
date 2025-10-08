@@ -1,0 +1,3 @@
+User ID	User Name	User Group	Access Risk ID	Risk Description	Role ID	Risk Level	Function	Function Description	System	Action	Action Description	Last Executed On	Business Process	Composite/Business Role Description
+U004	Dana West	Finance	R004	Critical Risk	ROLE_D	Critical	FUNC4	Function Four	SYS3	ACT4	Override Control	2024-01-08	Process D	Role Desc D
+U005	Evan Lee	IT	R005	Critical Risk	ROLE_E	High	FUNC5	Function Five	SYS3	ACT5	Delete Data	2024-01-07	Process E	Role Desc E

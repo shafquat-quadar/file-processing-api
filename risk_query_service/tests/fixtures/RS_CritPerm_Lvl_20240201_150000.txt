@@ -1,0 +1,2 @@
+User ID	User Name	User Group	Access Risk ID	Risk Description	Role ID	Risk Level	Function	Function Description	System	Action	Action Description	Last Executed On	Business Process	Composite/Business Role Description
+U012	Henry Ivy	IT	PR003	Crit Perm	ROLE_P3	Critical	PFUNC3	Permission Three	SYS4	PACT3	Super Access	2024-01-03	Process P3	Role Desc P3
