@@ -1,0 +1,4 @@
+User ID	User Name	User Group	Access Risk ID	Risk Description	Role ID	Risk Level	Function	Function Description	System	Action	Action Description	Last Executed On	Business Process	Composite/Business Role Description
+U001	Alice Smith	Finance	R001	Approval Risk	ROLE_A	High	FUNC1	Function One	SYS1	ACT1	Approve Payment	2024-01-10	Process A	Role Desc A
+U002	Bob Jones	Finance	R002	Access Risk	ROLE_B	Medium	FUNC2	Function Two	SYS1	ACT2	View Report	2024-01-09	Process B	Role Desc B
+U003	Carla Diaz	Sales	R003	Segregation Risk	ROLE_C	High	FUNC3	Function Three	SYS2	ACT3	Create Order	2024-01-05	Process C	Role Desc C

@@ -1,0 +1,3 @@
+User ID	User Name	User Group	Access Risk ID	Risk Description	Role ID	Risk Level	Function	Function Description	System	Action	Action Description	Last Executed On	Business Process	Composite/Business Role Description
+U010	Frank Hall	Finance	PR001	Perm Risk	ROLE_P1	Medium	PFUNC1	Permission One	SYS4	PACT1	Grant Access	2024-01-06	Process P1	Role Desc P1
+U011	Grace Kim	Sales	PR002	Perm Risk	ROLE_P2	Low	PFUNC2	Permission Two	SYS5	PACT2	Modify Data	2024-01-04	Process P2	Role Desc P2

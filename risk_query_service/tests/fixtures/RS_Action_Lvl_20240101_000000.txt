@@ -1,0 +1,2 @@
+User ID	User Name	User Group	Access Risk ID	Risk Description	Role ID	Risk Level	Function	Function Description	System	Action	Action Description	Last Executed On	Business Process	Composite/Business Role Description
+U999	Legacy User	Ops	R999	Old Risk	ROLE_Z	Low	FUNCZ	Function Zero	SYS0	ACT0	Old Action	2023-12-31	Process Z	Role Desc Z
