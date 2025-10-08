@@ -39,15 +39,7 @@ class Settings(BaseSettings):
     def _expand_local_path(cls, value: Optional[str | Path]) -> Optional[Path]:
         if value in (None, ""):
             return None
-        if isinstance(value, Path):
-            path = value
-        else:
-            raw = str(value).strip().strip('"').strip("'")
-            if not raw:
-                return None
-            path = Path(raw)
-        path = path.expanduser()
-        return path.absolute()
+        return Path(value).expanduser().resolve()
 
 
 @lru_cache(maxsize=1)

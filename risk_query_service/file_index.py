@@ -1,7 +1,6 @@
 """File discovery and indexing for report selection."""
 from __future__ import annotations
 
-import os
 import re
 import time
 from dataclasses import dataclass
@@ -60,21 +59,10 @@ def _compute_file_hash(path: Path) -> str:
 def _discover_local_files(pattern: re.Pattern[str]) -> List[Tuple[Path, float]]:
     settings = get_settings()
     folder = settings.onedrive_local_path
-    if folder is None:
-        raw = os.environ.get("ONEDRIVE_LOCAL_PATH")
-        if raw:
-            folder = Path(raw).expanduser()
     if not folder:
         return []
-    if isinstance(folder, str):
-        folder = Path(folder)
-    folder = folder.expanduser()
     matches: List[Tuple[Path, float]] = []
-    try:
-        iterator = folder.iterdir()
-    except FileNotFoundError:
-        return []
-    for file in iterator:
+    for file in folder.iterdir():
         if not file.is_file():
             continue
         match = pattern.match(file.name)
